@@ -1,0 +1,33 @@
+@import "../../theme/main.scss";
+
+.lefter{
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+    flex-direction: column;
+    width: $menu-height;
+    border: .1rem solid $color-grey-dark; 
+    position: absolute; 
+
+    &__box {
+        align-self: center;
+        justify-content: center;
+        align-items: center;
+        
+
+        &--fixed{
+            height: 15%;
+            &:first-child{
+                height: 30%;
+            }
+            &:last-child{
+                height:30%;
+            }
+        }
+        &__text{
+            align-self: center;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+}

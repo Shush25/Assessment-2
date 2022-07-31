@@ -1,0 +1,32 @@
+.order-first-container {
+    .order-text{
+        font-size: 2rem;
+        margin: 1rem 1.5rem;
+        overflow: hidden;
+        display: flex;
+        justify-content: space-between;
+        .fill{
+            height: 100%;
+            width: 30%;
+            display:inline;
+            background-color: rgba(255, 0, 0, 0.308);
+            padding: 1rem;
+            float:left;
+        }
+        .filler-style{
+            height: 100%;
+            width: 100%;
+            text-align: right;
+            float: left;
+            display: flex;
+            z-index: 2;
+            justify-content: space-between;
+            span{
+                text-align: end;
+            }
+        }
+        span{
+            text-align: end;
+        }
+    }
+}

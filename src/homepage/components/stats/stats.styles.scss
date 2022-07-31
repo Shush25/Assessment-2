@@ -1,0 +1,13 @@
+.table{
+    display: flex;
+    flex: 1;
+    div{
+        padding: 2rem 0;
+        flex: 1;
+        justify-content: center;
+        text-align: center;
+    }
+    .time{
+        flex: 4;
+    }
+}
